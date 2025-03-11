@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [showContact, setShowContact] = useState(false); 
+  const [showContact, setShowContact] = useState(false);
 
   const handleContactClick = () => {
     setShowContact(true);
@@ -39,7 +39,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Modal for Contact Info */}
       {showContact && (
         <div
           className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
@@ -47,7 +46,7 @@ export default function Navbar() {
         >
           <div
             className="bg-gray-900 text-white p-8 rounded-lg shadow-lg max-w-md w-full"
-            onClick={(e) => e.stopPropagation()} 
+            onClick={(e) => e.stopPropagation()}
           >
             <h2 className="text-2xl font-semibold mb-4">Contact Info</h2>
             <p className="text-lg mb-4">

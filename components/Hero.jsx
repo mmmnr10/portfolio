@@ -22,9 +22,7 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* Projects Section */}
       <section className="py-16 bg-gray-100">
-        {/* See My Work rounded card */}
         <div className="flex justify-center mb-12">
           <div className="bg-blue-700 text-white px-8 py-4 rounded-xl shadow-xl">
             <h2 className="text-4xl font-bold text-center">See My Work</h2>
@@ -35,10 +33,9 @@ export default function Hero() {
           My Projects
         </h2>
         <div className="flex justify-center gap-8">
-          {/* Project Card 1 */}
           <div className="card bg-white shadow-lg rounded-lg w-80">
             <img
-              src="ChasNewsWebPpage.jpg" // Replace with your image URL for Chas News
+              src="ChasNewsWebPpage.jpg"
               alt="Chas News Project"
               className="rounded-t-lg"
             />
@@ -50,7 +47,7 @@ export default function Hero() {
                 JavaScript.
               </p>
               <a
-                href="https://github.com/mmmnr10/Chas-News" // Update with actual project link
+                href="https://github.com/mmmnr10/Chas-News"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
@@ -60,10 +57,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Project Card 2 */}
           <div className="card bg-white shadow-lg rounded-lg w-80">
             <img
-              src="ChasQuizgame.jpg" // Replace with your image URL for Chas Quiz
+              src="ChasQuizgame.jpg"
               alt="Chas Quiz Game"
               className="rounded-t-lg"
             />
@@ -74,7 +70,7 @@ export default function Hero() {
                 JavaScript and React. Test your knowledge and have fun!
               </p>
               <a
-                href="https://github.com/mmmnr10/Chas-Quiz" // Update with actual project link
+                href="https://github.com/mmmnr10/Chas-Quiz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
