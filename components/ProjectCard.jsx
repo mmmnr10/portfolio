@@ -1,4 +1,4 @@
-// ProjectCard.jsx
+
 export default function ProjectCard({ project }) {
     return (
       <div className="card bg-base-100 shadow-xl">

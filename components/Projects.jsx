@@ -1,4 +1,4 @@
-// Projects.jsx
+
 import ProjectCard from './ProjectCard';
 import { useProjects } from '../context/ProjectContext';
 

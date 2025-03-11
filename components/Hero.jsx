@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="hero-content text-center">
         <div className="max-w-lg mx-auto">
           <h1 className="text-5xl font-extrabold leading-tight mb-6">
-            Hi, I'm Mustaf
+            Hi, I'm Mustaf Abdulahi
           </h1>
           <p className="text-xl mb-8">
             A beginner developer learning and growing by building fun projects.

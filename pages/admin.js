@@ -83,7 +83,7 @@ export default function Admin() {
         Admin Dashboard
       </h1>
 
-      {/* Project Form */}
+      
       <div className="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">Add Project</h2>
         <form onSubmit={handleProjectSubmit} className="space-y-4">
@@ -128,7 +128,7 @@ export default function Admin() {
         </form>
       </div>
 
-      {/* Tech Skills Form */}
+      
       <div className="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">
           Add Tech Skill
@@ -150,7 +150,7 @@ export default function Admin() {
         </form>
       </div>
 
-      {/* Projects List */}
+      
       <div className="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">Projects</h2>
         {projects.map((project) => (
@@ -187,7 +187,7 @@ export default function Admin() {
         ))}
       </div>
 
-      {/* Tech Skills List */}
+      
       <div className="bg-gray-800 p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-4 text-white">Tech Skills</h2>
         {techSkills.map((skill, index) => (

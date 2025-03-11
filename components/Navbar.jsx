@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [showContact, setShowContact] = useState(false); // State to show/hide contact modal
+  const [showContact, setShowContact] = useState(false); 
 
   const handleContactClick = () => {
     setShowContact(true);
@@ -47,7 +47,7 @@ export default function Navbar() {
         >
           <div
             className="bg-gray-900 text-white p-8 rounded-lg shadow-lg max-w-md w-full"
-            onClick={(e) => e.stopPropagation()} // Prevents closing modal when clicking inside it
+            onClick={(e) => e.stopPropagation()} 
           >
             <h2 className="text-2xl font-semibold mb-4">Contact Info</h2>
             <p className="text-lg mb-4">
